@@ -11,7 +11,7 @@ import requests
 
 BASE_URL = "https://api.skinport.com/v1"
 
-SKIN_NAME = os.getenv("SKIN_NAME", "M4A4 | Mecha Industries (Battle-Scarred)")
+SKIN_NAME = os.getenv("SKIN_NAME", "M4A1-S | Mecha Industries (Battle-Scarred)")
 APP_ID = int(os.getenv("APP_ID", "730"))
 CURRENCY = os.getenv("CURRENCY", "PLN")
 TIMEZONE = os.getenv("TIMEZONE", "Europe/Warsaw")
